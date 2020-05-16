@@ -1,0 +1,15 @@
+.gallery_content{}
+.gallery_box{
+    width: 1200px; height: 700px; 
+     margin: 0 auto; 
+    transform: translate(0, 15%);
+    display: flex; 
+    justify-content: space-between;
+    border-radius: 4% 1% 1% 4%;
+    padding: 3px;
+}
+.gallery_box img{width: 69.5%; border-radius: 5%; object-fit: cover;}
+.gallery_ul{width: 30%; display: flex; flex-wrap: wrap; justify-content: space-around; overflow: scroll;}
+.gallery_ul::-webkit-scrollbar{display: none;}
+.gallery_ul li{width: 49%; height: 150px; background: url('../img/gallery/1.gif') center center / cover; border-radius: 5%; margin: 1px;}
+.gallery_ul li:hover{border: 1px solid pink;} 

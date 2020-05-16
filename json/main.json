@@ -1,0 +1,187 @@
+ 
+    {"menus" : 
+        [
+            { 
+                "name" : "스타로드",
+                "content" : "asdasd"
+            },
+            { "cast" : 
+                [
+                    {
+                        "movieName" : "ROCKET",
+                        "name" : "Bradley Cooper",
+                        "content" : "A member of the Guardians who is a genetically-engineered raccoon-based bounty hunter, mercenary, and master of weapons and battle tactics. Sean Gunn once again served as the stand-in for the character during filming, with Cooper's performance also referenced. Sean Gunn said that Rocket has the same sort of crisis of faith that he had in the first film about whether or not he belongs in this family, with James Gunn adding, this is really about Rocket coming to terms with accepting his place within a group of people, which probably seemed like a good idea when they were heroes together at the end of the first film, but now he's just not very comfortable with the idea. Feige stated that the relationship between Rocket and Groot has changed, saying, Groot was Rocket's protector in the first movie, and now Rocket is Groot's protector.",
+                        "photo" : "img/cast/cast_01.jpg"
+                    },
+                    {
+                        "movieName" : "DRAX",
+                        "name" : "Dave Bautista",
+                        "content" : "A member of the Guardians and highly skilled warrior. Bautista waited for the final version of the script to not take away from the magic, which he felt had happened when he read early drafts of the first film. He added that I wasn't crazy about my part in Vol. 2, initially. It went a different direction than what I thought they were going to go with Drax, noting he did not think Drax was that significant in the film. The part clicked for Bautista after the table read with the other cast. Bautista called Drax more funny, driven than in the first film, and having a sense of innocence and heartbreak about him, despite most people's first perception of Drax that he's just a big, muscly brute. Bautista's makeup took only 90 minutes to apply, down from four hours for the first film. He would have to sit in a sauna at the end of the day to get the makeup off, after his makeup test was found to be too abrasive",
+                        "photo" : "img/cast/cast_02.jpg"
+                    },
+                    {
+                        "movieName" : "STAR-LOAD",
+                        "name" : "Chris Pratt",
+                        "content" : "The half-human, half-Celestial leader of the Guardians of the Galaxy who was abducted from Earth as a child and raised by a group of alien thieves and smugglers called the Ravagers. Pratt, who returns as part of a multi-film contract with Marvel, said Quill is now famous throughout the galaxy for having saved so many people... He feels like he's part of this group, a leader of this group. He's a little more responsible and trying to stay out of trouble, but not necessarily doing the best job. Pratt stated that working on the film forced him to come to terms with the death of his own father. Wyatt Oleff once again portrays a young Quill.",
+                        "photo" : "img/cast/cast_03.jpg"
+                    },
+                    {
+                        "movieName" : "GAMORA",
+                        "name" : "Zoe Saldana",
+                        "content" : "A member of the Guardians and an orphan from an alien world who seeks redemption for her past crimes. She was trained by Thanos to be his personal assassin. Saldana described Gamora's role in the team as the voice of reason, saying, She's surrounded by all these dudes who are so stupid half the time, and added that she is the Mom of the team, saying that she is just a meticulous, detailed, professional individual. Regarding Gamora's relationship with Nebula, Saldana described it as volatile and added, we're starting somewhere very crazy but appropriate given where we had ended things off in the first installment",
+                        "photo" : "img/cast/cast_04.jpg"
+                    },
+                    {
+                        "movieName" : "NEBULA",
+                        "name" : "Karen Gillan",
+                        "content" : "An adopted daughter of Thanos who was raised with Gamora as sisters and reluctant member of the Guardians. Gillan stated the film would further explore the sisterly relationship between Nebula and Gamora, including their backstory and what happened to these two girls growing up and actually how awful it was for them and how it has ruined their relationship, adding we're also going to start to see how much pain Thanos actually caused Nebula... we really start to see the emotional crack in her character. While Gillan had to shave her head for the first film, she only had to shave half of her head for the sequel, taking away the underneath part and leaving the top. Gillan's makeup took two and a half hours to apply, down from five hours for the first film.",
+                        "photo" : "img/cast/cast_05.jpg"
+                    }
+                ]
+            },
+            {
+                "trailers" : [
+                    {
+                        "name" : "guardians of galaxy : official tariler",
+                        "video" : "video/Marvel's Guardians of the Galaxy - Trailer 1 (OFFICIAL).mp4",
+                        "img" : "img/trailer/trailer_01.jpg"
+                    },
+                    {
+                        "name" : "guardians of galaxy : official tariler 02",
+                        "video" : "video/Marvel's Guardians of the Galaxy - Trailer 2 (OFFICIAL).mp4",
+                        "img" : "img/trailer/trailer_02.jpg"
+                    },
+                    {
+                        "name" : "guardians of galaxy : official tariler 03",
+                        "video" : "video/Guardians of the Galaxy Vol. 2 - Trailer 3 (Official).mp4",
+                        "img" : "img/trailer/trailer_03.jpg"
+                    }
+                ]
+            },
+            {
+                "gallery" :[
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/1.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/2.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/3.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/4.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/5.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/6.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/7.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/8.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/9.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/10.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/11.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/12.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/13.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/14.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/15.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/16.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/17.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/18.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/19.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/20.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/21.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/22.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/23.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/24.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/25.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/26.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/27.jpg"
+                    },
+                    {
+                        "name" : "1번이미지",
+                        "img" : "img/gallery/28.jpg"
+                    }
+                    
+                ]
+            },
+            {
+                "infinityStone" : [
+                    {
+                        "name" : "0번 스톤",
+                        "img" : "img/infinitystone/"
+                    }
+                ]
+            }
+        ]
+    }

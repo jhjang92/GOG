@@ -1,0 +1,53 @@
+@import url('common.css');
+
+.synopsis_page{
+    background: url('../img/synopsis/Guardians-of-the-Galaxy.jpg') no-repeat center center / cover;
+    overflow: hidden;
+}
+.synopsis_page article{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.synopsis_page article *{ color: white;}
+
+.synopsis_page article h3{font-size: 4rem;}
+.synopsis_page article .synopsis_box{
+    width: 60%; height: 50%;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0, 0), black);
+    box-shadow: 5px 3px 15px 15px rgba(0,0,0, .3);
+    
+    padding: 5% 5% 2%;
+    margin-top: 5%;
+}
+.synopsis_page article .synopsis_box .synopsis_inner_box{
+    width: 100%; height: 100%;
+    overflow: scroll;
+    padding-right: 8%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.synopsis_page article .synopsis_box .synopsis_inner_box::-webkit-scrollbar{
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.synopsis_page article .synopsis_box .synopsis_inner_box p{
+    font-size: 1.3rem;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+@media (max-width: 1000px){
+    .synopsis_page article .synopsis_box{
+        width: 80%; height: 50%;
+        margin: 0 auto;
+        background: linear-gradient(rgba(0,0,0, 0), black);
+        box-shadow: 5px 3px 15px 15px rgba(0,0,0, .3);
+        
+        padding: 5% 5% 2%;
+        margin-top: 5%;
+    }
+}

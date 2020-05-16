@@ -1,0 +1,124 @@
+.infinitystone_content h3{height: 1px; width: 1px; overflow: hidden;}
+.infinitystone_content ul{ 
+    display: flex; flex-direction: row; flex-wrap: wrap; 
+    height: 87vh; width: 100%;
+    position: absolute; bottom: 2%;
+    overflow: hidden;
+}
+
+.infinitystone_content ul li{
+    flex: 1; 
+    height: 100%; transition: 1s;
+    box-shadow: inset 0 0 0 5px rgba(0,0,0,0.1); 
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+}
+
+.infinitystone_content ul li > *{
+
+}
+
+.infinitystone_content ul li p{
+    color: white;
+    transition: .8s;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 800;
+}
+.infinitystone_content ul li p:first-of-type{
+    transform: translateY(-100%)
+}
+.infinitystone_content ul li p:last-of-type{
+    transform: translateY(100%);
+    
+}
+
+.infinitystone_content ul li p:last-of-type button{
+    border: 1px solid white;
+    padding: 10px;
+    font-weight: 300;
+    transition: .3s;
+    background: none;
+    color: white;
+    font-size: .8em;
+    outline: none;
+    
+}
+
+.infinitystone_content ul li p:last-of-type button:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.infinitystone_content ul li img{
+    width: 100px; height: 100px; transition: 1s;
+    border-radius: 100%;
+    }
+
+.infinitystone_content ul li:hover{flex: 1;}
+
+@keyframes imgrotate{
+    0%{transform: translateY(0%)}
+    100%{transform: translateY(15%);}
+}
+.infinitystone_content ul li:hover img{ animation: imgrotate 1s infinite alternate; width: 200px; height: 200px;} 
+
+.infinitystone_content ul li:hover p{
+    font-size: 2em;
+}
+.infinitystone_content ul li:hover p:first-of-type{
+    transform: translateY(0%);
+}
+.infinitystone_content ul li:hover p:last-of-type{
+    transform: translateY(0%);
+    font-size: 1.2em;
+}
+
+.popup_stone{width: 1px; height: 1%; 
+    border: 1px solid black; background: rgba(0,0,0,0.8);
+    position: absolute;left: 50%; top: 55%; 
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.popup_stone_on{
+    animation: popup_stone_ani 1.2s both;
+}
+
+.popup_stone_off{
+    animation: popup_stone_ani2 1.2s reverse;
+}
+.popup_stone_off *{display: none;}
+
+@keyframes popup_stone_ani{
+    0%{width: 1px; height: 1%;}
+    10%{width: 1px; height: 1%}
+    50%{width: 1000px; height: 1%;}
+    100%{width: 1000px; height: 70%; opacity: 1;}
+}
+@keyframes popup_stone_ani2{
+    0%{width: 1px; height: 1%;} 
+    10%{width: 1px; height: 1%}
+    50%{width: 1000px; height: 1%;}
+    100%{width: 1000px; height: 70%; opacity: 1;}
+
+}
+.popup_bg{width: 100%; height: 99vh; background: rgba(0,0,0,.6); display: none;}
+.popup_bg_on{display: block; position: relative;}
+
+.popup_stone p{display: none; color: white; padding-bottom: 100px;}
+.popup_stone figure{ width: 40%; height: 40%;}
+.popup_stone figure img{ width: 100%; height: 100%; border-radius: 50%; }
+.popup_stone figure figcaption{color: white; line-height: 30px;}
+.popup_stone figure:first-of-type{margin-right: 50px;}
+.popup_stone figure:first-of-type img{margin-right: 50px;; border-radius: 20%;}
+.popup_stone figure:last-of-type{margin-left: 50px}
+.popup_stone_on p{display: block; font-size: 1em;}
+.popup_stone_on figure{display: inline-block;}

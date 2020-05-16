@@ -1,0 +1,75 @@
+
+.trailers_page{
+    background: url('../img/trailer/trailer_01.jpg') no-repeat center center / cover;
+    overflow: hidden;
+}
+.trailers_page article{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.trailers_page article h3{ 
+    color: white; text-align: center;
+     font-size: 3rem; 
+     text-shadow: 3px 2px black;
+}
+.trailers_page article figure{
+    margin-top: 5%; text-align: center;
+    position: relative;
+}
+.trailers_page article figure .trailer_video{
+    width: 800px; height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.trailers_page article figure .trailer_video button{
+    position: absolute;
+    left: 0; top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    transition: 1s;
+    cursor: pointer;
+}
+.trailers_page article figure .trailer_video button.active{
+    background: rgba(0, 0, 0, 0);
+}
+.trailers_page article figure .trailer_video button img{transform: scale(2);}
+.trailers_page article figure .trailer_video button img.active{
+    opacity: 0;
+    transition: 1s;
+}
+.trailers_page article figure .trailer_video button:hover img.active{
+    opacity: 1;
+}
+.trailers_page article figure .trailer_video button:hover{
+    opacity: 1;
+    background: rgba(0, 0, 0, .4);
+}
+.trailers_page article figure .trailer_video video{
+    height: 100%;
+    cursor: pointer;
+}
+.trailers_page article figure figcaption{
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* trailer Btn */
+.trailers_page article figure button{
+    width: 100%;
+    border: none; background: none;
+    position: absolute;
+    bottom: 100px; left: 0;
+    display: flex; justify-content: center;
+    outline-style: none;
+}
+.trailers_page article figure > button img{cursor: pointer;}
+.trailers_page article figure > button img:first-of-type{margin-right: 450px;}
+.trailers_page article figure > button img:last-of-type{margin-left: 450px;}
