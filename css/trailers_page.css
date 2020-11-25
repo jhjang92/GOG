@@ -38,7 +38,7 @@
 .trailers_page article figure .trailer_video button.active{
     background: rgba(0, 0, 0, 0);
 }
-.trailers_page article figure .trailer_video button img{transform: scale(2);}
+.trailers_page article figure .trailer_video button img{position: relative; top: 50%;}
 .trailers_page article figure .trailer_video button img.active{
     opacity: 0;
     transition: 1s;
